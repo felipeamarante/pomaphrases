@@ -1,0 +1,5 @@
+Simple - 
+
+Virtualenv inside the repo (source /bin/activate)
+pip install flask
+python app.py
