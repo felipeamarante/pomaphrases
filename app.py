@@ -9,8 +9,9 @@ def hello():
 @app.route('/pomers')
 def pomers():
     phraseCount = "cat phraselist.txt | wc -l"
+    phraseNumber = os.system(prhaseCount)
     with open("phraselist.txt", "rw+") as fo:
-        phrase = fo.readlines()[random.randint(0,(os.system(phraseCount))]
+        phrase = fo.readlines()[random.randint(0,(praseNumber))]
         return '%s' % phrase
 
 
